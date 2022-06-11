@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gener {
+    display: flex;
+    flex-wrap: wrap;
+    width: 355px;
+    min-height: 500px;
+    background-color: blue;
+}
+
+.ind {
+    padding: 15px 35px;
+    /*background-color: gray;*/
+    /*margin-bottom: 0.2%;*/
+    border: 0.5px solid black;
+
+
+}
+
+.amper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10%;
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: right;
+    justify-content: right;
+    font-size: 2rem;
+
+}
+
+/*.amper:hover {
+    pointer-events: none;
+}*/
+
+.special {
+    display: flex;
+    /*flex-direction: row;*/
+    width: 100%;
+
+}
+
+.ind {
+    width: 25.3%;
+}
+
+.index1,
+.index2,
+.index3,
+.index4 {
+    padding: 15px 35px;
+
+    width: 25.3%;
+    border: 0.5px solid black;
+}
+
+.cls {
+    width: 50.6%;
+}
+
+.div {
+    width: 25.1%;
+}
+
+.del {
+    width: 25.3%;
+}
+
+
+.cute {
+    width: 100%;
+    display: flex;
+}
+
+
+
+.smart {
+    display: flex;
+    width: 100%;
+
+}
+
+.sacred {
+    display: flex;
+    width: 100%;
+}
+
+.per {
+    width: 75.9%;
+}
+
+.season {
+    width: 25.3%;
+}
+
+button:last-child {
+    background-color: rgb(223, 176, 126);
+    color: white;
+}
+
+button {
+    font-size: 1.5rem;
+
+    background-color: rgb(216, 217, 219);
+}
