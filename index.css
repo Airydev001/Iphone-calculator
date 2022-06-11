@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.flex-container {
+    display: flex;
+
+    align-items: stretch;
+    border: 2px solid grey;
+
+}
+
+.flex-container2 {
+    display: flex;
+    align-items: stretch;
+    border: 2px solid grey;
+
+}
+
+
+h1 {
+    font-size: larger;
+    text-align: center;
+    padding: 14px 15px;
+    margin: 60px 0;
+    font-size: 3rem;
+    font-family: 'Great Vibes', cursive;
+}
+
+.sub-div {
+    border-right: 0.5px solid grey;
+
+}
+
+.playee {
+    flex-grow: 2;
+}
+
+.acticle {
+    flex-grow: 1;
+}
+
+.sub-div {
+    padding: 18px 20px;
+
+}
+
+.acticles {
+    flex: 0.882;
+}
+
+.sub-div>h2 {
+    font-style: italic;
+    margin: 10px;
+    padding: 12px 13px;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+story-img {
+
+    width: 100%;
+}
+
+.divide {
+
+    display: flex;
+
+    flex-direction: column;
+    width: 100%;
+    flex: 2;
+    border-left: 1px solid grey;
+    height: inherit;
+
+}
+
+
+.divide>p {
+    padding: 30px 14px;
+    color: white;
+}
+
+
+
+.damn {
+    flex: 1;
+    display: flex;
+
+}
+
+
+
+.para1 {
+    background-color: blue;
+}
+
+.para2 {
+    background-color: rgb(84, 84, 179);
+
+}
+
+.para3 {
+    background-color: rgb(255, 0, 255);
+}
+
+.para4 {
+    background-color: rgb(255, 0, 0);
+}
+
+.para5 {
+    background-color: rgb(136, 255, 0);
+}
+
+.acticles h2 {
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+.acticles p {
+    padding: 10px;
+}

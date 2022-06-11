@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Times</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <h1> Daily Times</h1>
+        <div class="flex-container">
+            <div class="sub-div acticle">
+                <h2>Student Learns HTML</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora corporis reiciendis adipisci
+                    accusantium
+                    doloremque esse itaque delectus voluptas nisi, quidem eos commodi obcaecati est nihil laudantium,
+                    omnis
+                    provident assumenda minus. Dignissimos repudiandae doloremque esse quisquam ad voluptas repellat!
+                    Reiciendis, deleniti?</p>
+            </div>
+            <div class="sub-div playee">
+
+                <h2>BREAKING: Puppies Are Adorable</h2>
+                <img class="story-img" src="http://placecorgi.com/500/300" alt="Puppies image">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita error optio earum modi quas? Amet
+                    labore assumenda nobis sint, eius ex odit delectus incidunt expedita rerum! Esse, excepturi alias
+                    veritatis adipisci consequatur similique dolore vitae ipsam eligendi, molestiae enim obcaecati
+                    corporis
+                    iure quos recusandae quas repellat impedit distinctio cum vel? Quam maiores eos reprehenderit
+                    commodi?
+                </p>
+            </div>
+            <div class="sub-div acticle">
+                <h2>CSS Is Apparently a Thing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ex autem illo aliquam recusandae quae
+                    omnis placeat nemo nulla quia, unde nihil temporibus vitae at iure? Vel atque sed sequi tenetur,
+                    reiciendis, necessitatibus officia, molestiae fuga fugit obcaecati officiis voluptatem. Atque sit
+                    pariatur veritatis recusandae?</p>
+            </div>
+
+    </section>
+
+    <!---Second paragraph-->
+    <section>
+        <div class="flex-container2">
+            <div class=" acticles">
+                <h2>Student Learns HTML</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora corporis reiciendis adipisci
+                    accusantium
+                    doloremque esse itaque delectus voluptas nisi, quidem eos commodi obcaecati est nihil laudantium,
+                    omnis
+                    provident assumenda minus. Dignissimos repudiandae doloremque esse quisquam ad voluptas repellat!
+                    Reiciendis, deleniti?</p>
+            </div>
+            <div class="divide">
+                <p class="para1 p damn">Politics</p>
+                <p class="para2 p damn">Technology</p>
+                <p class="para3 p damn">Local</p>
+                <p class="para4 p damn">Opinion</p>
+                <p class="para5 p damn">Sports</p>
+
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+        const generateAll = document.querySelectorAll("p");
+        function handlerBtn(e) {
+            const harmb = e.currentTarget;
+            harmb.style.backgroundColor = `hsl(${Math.random() * 360},80%,50%)`;
+        }
+        generateAll.forEach((single) => {
+            single.addEventListener("click", handlerBtn)
+        })
+    </script>
+</body>
+
+</html>
